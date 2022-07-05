@@ -1,0 +1,3 @@
+var strings = "redddd";
+
+console.log(strings.charAt(0))
