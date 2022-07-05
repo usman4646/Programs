@@ -1,3 +1,27 @@
+USING charAt function
+
 var strings = "redddd";
 
 console.log(strings.charAt(0))
+
+Result: r;
+
+
+USING Remove duplicate elements from array
+
+var array = [1,34,2,2,3,44,2,2,3,4];
+
+var emptyarray = [];
+
+array.forEach(function(c){
+   if(!emptyarray.includes(c)){
+       emptyarray.push(c);
+   } 
+});
+console.log(emptyarray);
+
+Result:  [ 1, 34, 2, 3, 44, 4 ];
+
+
+
+
